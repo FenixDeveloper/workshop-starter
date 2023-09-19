@@ -22,10 +22,10 @@
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier ./src --write",
     "prepare": "husky install",
-    "predeploy": "cross-env PUBLIC_URL=https://fenixdeveloper.github.io/workshop-starter/ npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": ".",
+  "homepage": "https://fenixdeveloper.github.io/workshop-starter/",
   "alias": {
     "react/jsx-runtime.js": "react/jsx-runtime",
     "react/jsx-dev-runtime.js": "react/jsx-dev-runtime"
